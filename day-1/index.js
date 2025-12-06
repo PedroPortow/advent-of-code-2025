@@ -12,7 +12,7 @@ const path = require('path');
 
 function readInput() {
   try {
-    const filePath = path.join(__dirname, 'input.txt');
+    const filePath = path.join(__dirname, 'input-example.txt');
     const data = fs.readFileSync(filePath, 'utf8');
 
     return data
